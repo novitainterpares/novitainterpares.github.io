@@ -318,7 +318,6 @@ ul.horizontal > li {
 	}
 
 	[class*='offset'] {
-		width: 0;
 		margin-left: 0px;
 	}   
 

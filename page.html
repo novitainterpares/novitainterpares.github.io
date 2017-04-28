@@ -1,0 +1,114 @@
+---
+layout: default
+title: Novita Interpares
+---
+
+
+<style>
+
+.wide-header {
+	overflow:hidden;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align:center;
+
+	min-height:400px;
+}
+
+.wide-header:after {
+	content: "";
+	display: block;
+	padding-bottom: 80%;
+}
+
+</style>
+
+
+
+
+
+<div style="background: #F7C01C">
+
+<div class="wide-header" style="background-image: url(/assets/novita-interpares2.png);">
+</div>
+           
+</div>
+
+
+
+
+
+
+
+<div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+         <div class="row">
+            <div class="span12">
+               <h1>1,200 over {{ site.time | date: '%Y' | minus: "1972" }}</h1>
+               <p style="font-size:1.4em;">In the 45 years since the founding of our company in 1972, we have provided consulting services and professional advice to more than 1,200 clients.</p>
+               <p style="font-size:1.4em;">In the first 20 years our projects were all in the <b>cultural</b> sector.</p>
+               <p style="font-size:1.4em;">In the next 25 years we added <b>social</b> sector projects.</p>
+               <p style="font-size:1.4em;">Our 1,200 projects have been carried out in communities all across Canada - in villages, in towns, in regional cities and in major metropolitan centres.</p>
+            </div>
+         </div>
+
+
+
+
+         <div class="row">
+            <div class="span8">
+               <h1>Our Advice</h1>
+               <p>We provide consulting services and professional advice in many forms:</p>
+               <ul>
+                  {% for advice in site.data.data.advices %}
+                  <li><div class="awesomedot"></div></i>{{ advice.name }}</li>
+                  {% endfor %}
+               </ul>
+            </div>
+      </div>
+
+
+
+         <div class="row">
+            <div class="span12">
+               <h1>Our Clients</h1>
+               <p>We work with a diverse group of people and organizations.</p>
+               <br>
+            </div>
+
+            <ul>
+               {% for client in site.data.data.clients %}
+               <li>{{ client.name }}</li>
+               {% endfor %}
+            </ul>
+            
+            <div class="span12">
+               <p><b>References</b> may be provided upon request.</p>
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+</div>

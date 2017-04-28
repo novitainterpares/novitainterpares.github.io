@@ -1,0 +1,32 @@
+---
+layout: default
+title: People
+---
+
+
+<div class="content">
+<div class="row">
+	<div class="span12">
+
+	<h1>Our team</h1>
+	<p style="font-size:2em">Led by partners Leslie and Brian, Novita Interpares' consulting services and professional advice are provided by a multi-disciplinary team</p>
+
+	</div>
+</div>
+
+
+<div class="row">
+
+{% for person in site.people %}
+<div class="span6">
+<img src="/assets/{{ person.name | slugify }}.jpg" />
+<div class="caption">
+<div class="people-title">{{ person.title }}</div>
+<div class="people-name">{{ person.name }}</div>
+{{ person.content }}
+</div>
+</div>
+{% endfor %}
+
+</div>
+</div>

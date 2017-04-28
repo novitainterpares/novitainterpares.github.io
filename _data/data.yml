@@ -1,0 +1,46 @@
+ventures:
+  - name: Luvly in Lunenburg
+    url:  "http://luvly.ca"
+    description:  A destination retail outlet exclusively featuring Canadian independent design.
+
+  - name: The Lunenburg Makery
+    url:  "http://lunenburgmakery.ca"
+    description:  A place for gathering and making is a social enterprise business responding to the community need.
+
+  - name: Leaf + Branch
+    url:  "http://leafandbranch.ca"
+    description:  Develops, owns and operates historic buildings and buildings of character.
+
+  - name: Altered
+    url:  "http://lunenburgmakery.ca/altered"
+    description: A part of the Lunenburg Makery is a garment workshop.
+
+  - name: Learning Lunenburg
+    url:  "http://learninglunenburg.ca"
+    description:  A Centre for the Study of Small Communities
+
+
+clients:
+  - name: Visioning and Strategic Planning
+  - name: Public Consultation and Surveys
+  - name: Governance and Policy Frameworks
+  - name: Recruitment and Human Resources
+  - name: Service Delivery and Revenue Generating Capacity
+  - name: Project Coordination and Communications
+  - name: Marketing and Analysis of Competitive Environment
+  - name: Economic Impact and Benefit Analysis
+  - name: Program Monitoring and Evaluation
+  - name: Capital Feasibility and Facilities Planning
+
+
+advices:
+  - name: Visioning and Strategic Planning
+  - name: Public Consultation and Surveys
+  - name: Governance and Policy Frameworks
+  - name: Recruitment and Human Resources
+  - name: Service Delivery and Revenue Generating Capacity
+  - name: Project Coordination and Communications
+  - name: Marketing and Analysis of Competitive Environment
+  - name: Economic Impact and Benefit Analysis
+  - name: Program Monitoring and Evaluation
+  - name: Capital Feasibility and Facilities Planning
